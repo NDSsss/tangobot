@@ -14,3 +14,4 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', 'Web@welcome');
+Route::get('/welcome', 'Web@welcome');
